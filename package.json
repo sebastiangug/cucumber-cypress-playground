@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:run:chrome": "cypress run --browser chrome --headless"
+  },
+  "devDependencies": {
+    "@cypress/browserify-preprocessor": "3.0.2",
+    "@types/cypress-cucumber-preprocessor": "^4.0.1",
+    "cypress": "9.3.1",
+    "cypress-cucumber-preprocessor": "4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "type": "commonjs"
+}
